@@ -1,0 +1,102 @@
+body {
+  background: url(img/city-2.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+.btn-2 {
+  width: 140px;
+  height: 60px;
+  background: slateblue;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: coral;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.container {
+  position: relative;
+  border: 1px solid #fff;
+  width: 600px;
+  height: 350px;
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  text-transform: uppercase;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+i {
+  color: coral;
+  margin-left: 5px;
+}
+
+.container p {
+  text-align: center;
+  color: #ffff00;
+  font-size: 1.5rem;
+}
+
+.quote {
+  margin-left: 17.5rem;
+}
+
+.left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-120%, -50%);
+}
+
+.right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(120%, -50%);
+}
+
+.left i:hover {
+  cursor: pointer;
+  color: white;
+  transition: ease-out 1.5s;
+}
+.right i:hover {
+  cursor: pointer;
+  color: white;
+  transition: all ease-out 1.5s;
+}
+
+.client-image {
+  background: url(img/person-1.jpg) no-repeat center/cover;
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 42%;
+  transform: translate(-10%, -50%);
+}
